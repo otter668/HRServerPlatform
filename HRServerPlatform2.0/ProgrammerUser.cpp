@@ -3,6 +3,7 @@
 
 ProgrammerUser::ProgrammerUser()
 {
+	cout << "Log:ProgrammerUser Constructor!" << endl;
 }
 
 

@@ -7,6 +7,7 @@ User::User(string name, string password)
 }
 User::User()
 {
+	cout << "Log:User constructor!" << endl;
 	_name;
 	_password;
 }

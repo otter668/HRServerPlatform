@@ -37,23 +37,25 @@ int SystemUI::showHomeMenu()
 }
 void SystemUI::CalculateSalary(int choice)
 {
-	ProgrammerUser* _user1 = new ProgrammerUser();
-	ArtistUser* _user2 = new ArtistUser();
+	//ProgrammerUser* _user1 = new ProgrammerUser();
+	//ArtistUser* _user2 = new ArtistUser();
+	User* _user;
 	switch (choice)
 	{
 	case 1:
-		cout << "程序员的工资为:" << _user1->getsalary();
-		cout << "\n";
+		_user = new ProgrammerUser();
+		cout << "程序员的工资为:" << _user->getsalary() << endl;
 		break;
 	case 2:
-		cout << "美工的工资为:" << _user2->getsalary();
-		cout << "\n";
+		_user = new ArtistUser();
+		cout << "美工的工资为:" << _user->getsalary() << endl;
 		break;
 	default:
-		cout << "不存在该工作类别";
-		cout << "\n";
+		cout << "不存在该工作类别" << endl;
 		break;
 	}
+	delete _user;
+	_user = nullptr;
 }
 int SystemUI::showLoginMeun()
 {
@@ -253,8 +255,7 @@ void SystemUI::findJob()
 	}
 	else
 	{
-		cout << "没有找到与您的输入相匹配的工作";
-		cout << "\n";
+		cout << "没有找到与您的输入相匹配的工作" << endl;
 	}
 	this->showHomeMenuOperation();
 }
@@ -276,16 +277,14 @@ void SystemUI::LoginOperation()
 	if (_user != nullptr)
 	{
 		system("cls");
-		cout << "登陆成功！";
-		cout << "\n";
+		cout << "登陆成功！" << endl;
 		this->showHomeMenuOperation();
 		system("cls");
 	}
 	else
 	{
 		system("cls");
-		cout << "登陆失败!请重新登陆";
-		cout << "\n";
+		cout << "登陆失败!请重新登陆" << endl;
 	}
 }
 void SystemUI::showAllJobs()
