@@ -8,6 +8,6 @@ public:
 	AdminUser(string, string);
 	~AdminUser(void);
 public:
-	int getsalary();//计算工资
+	virtual int getsalary();//计算工资
 };
 

@@ -1,70 +1,77 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="ArtistUser" Collapsed="true">
+  <Class Name="AdminUser" Collapsed="true">
     <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAACAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>AdminUser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArtistUser" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAEACAAAAAAAAAA=</HashCode>
       <FileName>ArtistUser.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Category" Collapsed="true">
-    <Position X="5.25" Y="0.5" Width="1.5" />
+    <Position X="7.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAIBAAAAAAAAAAAEBAAAAAAAAAAAAABAgEAAAACAA=</HashCode>
       <FileName>Category.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="CategoryList" Collapsed="true">
-    <Position X="7" Y="0.5" Width="1.5" />
+    <Position X="9.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAACAAABAAAAAAAAAABQAQAAAAAAAAABQCAAAACAAA=</HashCode>
       <FileName>CategoryList.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DataProvider" Collapsed="true">
-    <Position X="8.75" Y="0.5" Width="1.5" />
+    <Position X="11" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAQAAEAAQAAAAAAAAABIAAAAAIAADAAQAAASAAA=</HashCode>
       <FileName>DataProvider.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Job" Collapsed="true">
-    <Position X="5.25" Y="1.5" Width="1.5" />
+    <Position X="7.5" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAIAAAAAAAAAAUAABAAAAAAAAGAAAABAAEgAQAAAA=</HashCode>
       <FileName>Job.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="JobList" Collapsed="true">
-    <Position X="7" Y="1.5" Width="1.5" />
+    <Position X="9.25" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAABAAAAAAEAAAAQAQAACAAAAAABQCAAAACAAA=</HashCode>
       <FileName>JobList.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ProgrammerUser" Collapsed="true">
-    <Position X="2.75" Y="1.75" Width="1.5" />
+    <Position X="5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAICAA=</HashCode>
       <FileName>ProgrammerUser.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="SystemUI" Collapsed="true">
-    <Position X="8.75" Y="1.5" Width="1.5" />
+    <Position X="11" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>QBIAAAAAAhAEIAAAAAAAAAARAACoAAAAAAAAAAAQAAA=</HashCode>
       <FileName>SystemUI.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="User" Collapsed="true">
-    <Position X="1.75" Y="0.5" Width="1.5" />
+    <Position X="2.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQBIAAAAAAAAAABAAAKAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
       <FileName>User.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="UserList" Collapsed="true">
-    <Position X="5.25" Y="2.5" Width="1.5" />
+    <Position X="7.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AACAAAAABAAAAAAAAAAAQAQAAAAAABAAAQCQAAACAAA=</HashCode>
       <FileName>UserList.h</FileName>
