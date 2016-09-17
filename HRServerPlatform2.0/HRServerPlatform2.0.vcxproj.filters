@@ -51,6 +51,9 @@
     <ClInclude Include="UserList.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="AdminUser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ArtistUser.cpp">
@@ -87,6 +90,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="UserList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AdminUser.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

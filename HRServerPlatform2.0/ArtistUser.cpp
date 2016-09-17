@@ -3,7 +3,7 @@
 
 ArtistUser::ArtistUser()
 {
-	cout << "Log:ArtistUser Constructor!" << endl;
+	//cout << "Log:ArtistUser Constructor!" << endl;
 }
 
 

@@ -5,6 +5,7 @@
 #include "UserList.h"
 #include "ProgrammerUser.h"
 #include "ArtistUser.h"
+#include "AdminUser.h"
 SystemUI::SystemUI()
 {
 	_dataProvider = new DataProvider();
@@ -37,8 +38,6 @@ int SystemUI::showHomeMenu()
 }
 void SystemUI::CalculateSalary(int choice)
 {
-	//ProgrammerUser* _user1 = new ProgrammerUser();
-	//ArtistUser* _user2 = new ArtistUser();
 	User* _user;
 	switch (choice)
 	{
@@ -51,6 +50,7 @@ void SystemUI::CalculateSalary(int choice)
 		cout << "美工的工资为:" << _user->getsalary() << endl;
 		break;
 	default:
+		_user = nullptr;
 		cout << "不存在该工作类别" << endl;
 		break;
 	}
@@ -148,7 +148,7 @@ void SystemUI::showLoginMeunOperation()
 {
 	string username;
 	string userpassword;
-	User* _user = new User();
+	User* _user = new AdminUser();
 	bool flag2 = true;
 	//先检查当前状态
 	while (flag2)
@@ -267,7 +267,7 @@ void SystemUI::LoginOperation()
 {
 	string username;
 	string userpassword;
-	User* _user = new User();
+	User* _user = new AdminUser();
 	bool flag2 = true;
 	cout << "请输入用户名：";
 	cin >> username;

@@ -1,12 +1,13 @@
 #include "stdafx.h"
 #include "UserList.h"
+#include "AdminUser.h"
 
 UserList::UserList(int initialSize)
 {
 	this->_count = 0;
 	this->_capacity = initialSize;
-	this->_data = new User[initialSize];
-	User *user = new User("HR", "123");
+	this->_data = new AdminUser[initialSize];
+	User *user = new AdminUser("HR", "123");
 	this->_data[_count++] = *user;
 }
 
@@ -24,7 +25,7 @@ int UserList::Count()
 void UserList::resize()
 {
 	_capacity *= 2;
-	User* temp = new User[_capacity];
+	User* temp = new AdminUser[_capacity];
 	memcpy(temp, _data, _count);
 	delete[] _data;
 	_data = temp;

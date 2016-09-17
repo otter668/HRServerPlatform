@@ -6,7 +6,7 @@
 class User
 {
 public:
-	virtual int getsalary();//计算工资
+	virtual int getsalary()=0;//计算工资
 private:
 	string _name;//用户名
 	string _password;//密码

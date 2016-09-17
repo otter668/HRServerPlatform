@@ -7,7 +7,7 @@ User::User(string name, string password)
 }
 User::User()
 {
-	cout << "Log:User constructor!" << endl;
+	//cout << "Log:User constructor!" << endl;
 	_name;
 	_password;
 }
@@ -21,9 +21,4 @@ string User::getPassword()
 }
 User::~User()
 {
-
-}
-int User::getsalary()
-{
-	return 0;
 }

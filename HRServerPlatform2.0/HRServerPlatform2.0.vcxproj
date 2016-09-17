@@ -74,6 +74,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="AdminUser.h" />
     <ClInclude Include="ArtistUser.h" />
     <ClInclude Include="Category.h" />
     <ClInclude Include="CategoryList.h" />
@@ -88,6 +89,7 @@
     <ClInclude Include="UserList.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AdminUser.cpp" />
     <ClCompile Include="ArtistUser.cpp" />
     <ClCompile Include="Category.cpp" />
     <ClCompile Include="CategoryList.cpp" />
